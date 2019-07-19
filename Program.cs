@@ -5,16 +5,16 @@ namespace basicfunctions
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        // static void Main(string[] args)
+        // {
 
-            Console.WriteLine("what is your age?");
-            string age = Console.ReadLine();
-            int num = Int32.Parse(age);
-            int newAge = num + 5;
+            // Console.WriteLine("what is your age?");
+            // string age = Console.ReadLine();
+            // int num = Int32.Parse(age);
+            // int newAge = num + 5;
 
-            Console.WriteLine("Your age in 5 years is going to be " + newAge);
-            Console.WriteLine(num);
+            // Console.WriteLine("Your age in 5 years is going to be " + newAge);
+            // Console.WriteLine(num);
 
             // Person person = new Person();
 
@@ -41,6 +41,6 @@ namespace basicfunctions
 
             // var example = new { Greeting = "Hello", Name = "World" };
             // Console.WriteLine($"{example.Greeting}, {example.Name}!");
-        }
+        // }
     }
 }
