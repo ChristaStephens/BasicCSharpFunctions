@@ -21,15 +21,34 @@ namespace basicfunctions.Calc
             string num2 = Console.ReadLine();
             //need two numbers
 
-            if (operation == "+"){
+            do{
+
+                if (operation == "+"){
                 int a = Int32.Parse(num1);
                 int b = Int32.Parse(num2);
-                int sum = a + b;
-                Console.WriteLine("Your sum is " + sum + "." + "Thank you for using Calcutron 5000 " + name + "!");
+                int result1 = a + b;
+                Console.WriteLine("Your sum is " + result1 + "." + " Thank you for using Calcutron 5000 " + name + "!");
 
-            } else if (operation =="-"){
+            } else if (operation == "-"){
+                int a = Int32.Parse(num1);
+                int b = Int32.Parse(num2);
+                int result2 = a - b;
+                Console.WriteLine("Your result is " + result2 + "." + " Thank you for using Calcutron 5000 " + name + "!");
 
+            } else if(operation == "*"){
+                int a = Int32.Parse(num1);
+                int b = Int32.Parse(num2);
+                int result3 = a * b;
+                Console.WriteLine("Your sum is " + result3 + "." + " Thank you for using Calcutron 5000 " + name + "!");
+            }else if (operation == "/"){
+                int a = Int32.Parse(num1);
+                int b = Int32.Parse(num2);
+                int result4 = a / b;
+                Console.WriteLine("Your sum is " + result4 + "." + " Thank you for using Calcutron 5000 " + name + "!");
             }
+                Console.WriteLine("Would you like to use Calcutron again " + name + "?"+ "Type Yes to continue.");
+                string answer = Console.ReadLine();
+            } while ();
 
 
 
